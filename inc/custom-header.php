@@ -24,7 +24,7 @@
  */
 function oria_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'oria_custom_header_args', array(
-		'default-image'          => get_template_directory_uri() . '/images/header.jpg',
+		'default-image'          => 'https://quynhlemo.com/wp-content/uploads/2018/01/voiu-e1515511289269.jpg',
 		'default-text-color'     => '000000',
 		'width'                  => 1920,
 		'height'                 => 850,
