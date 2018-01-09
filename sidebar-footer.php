@@ -17,7 +17,7 @@
 	?>
 
 	<div id="sidebar-footer" class="footer-widgets" role="complementary">
-		<div class="container">
+		<div class="container-footer">
 			<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
 				<div class="sidebar-column <?php echo $cols; ?>">
 					<?php dynamic_sidebar( 'footer-1'); ?>

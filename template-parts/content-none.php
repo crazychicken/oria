@@ -10,7 +10,7 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'oria' ); ?></h1>
+		<h1 class="page-title"><?php esc_html_e( 'Không tìm thấy kết quả', 'oria' ); ?></h1>
 	</header><!-- .page-header -->
 
 	<div class="page-content">
@@ -20,7 +20,7 @@
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'oria' ); ?></p>
+			<p><?php esc_html_e( 'Rất tiếc, không có kết quả nào! Bạn có thể nhập lại tìm kiếm khác', 'oria' ); ?></p>
 			<?php get_search_form(); ?>
 
 		<?php else : ?>

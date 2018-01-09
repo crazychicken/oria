@@ -1,10 +1,9 @@
 /*
-Theme Name: Oria
+Theme Name: Custom by Tuds
 Theme URI: http://justfreethemes.com/oria
-Author: JustFreeThemes
-Author URI: http://justfreethemes.com
+Author: Tuds
 Description: Oria is a responsive masonry theme that lets you tell your stories in a clean and modern environment. Some of the features are: parallax header image, social menu, custom colors, easy access to all Google Fonts, a built-in featured posts carousel. A full demo is available here: http://demo.flyfreemedia.com/oria
-Version: 1.08
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: oria
@@ -13,7 +12,7 @@ Tags: custom-colors, custom-background, custom-menu, custom-header, featured-ima
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-Oria is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Oria is based on Underscores http://underscores.me/, (C) 2018 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
 
@@ -1482,6 +1481,12 @@ Slider
 		padding: 0;
 	}
 }
+
+
+/*Custom tuds*/
+#colophon {
+	display: none;
+}
 .widget-area {
 	z-index: 12;
 }
@@ -1511,14 +1516,21 @@ Slider
 		width: calc(100% - 60px);
 }
 #search-top .search-field {
-	padding: 13px 0 13px 60px;
+	padding: 15px 0 13px 60px;
 	border-radius: 0;
 	border: none;
 	background: none;
 	color: #fff;
+	transition: all 0.5s ease;
+}
+@media (max-width: 767px) {
+	#search-top .search-field {
+		padding: 13px 0 11px 60px;
+	}
 }
 #search-top .search-field:focus {
 	outline: none;
+	background: rgba(173,20,87,0.15);
 }
 #search-top .search-submit {
 	margin-top: 0;
@@ -1535,3 +1547,73 @@ Slider
 #search-top .search-submit:hover {
 	opacity: 0.75;
 }
+/*NotFound*/
+.not-found {
+	min-height: 300px;
+    text-align: center;
+}
+/*Slider*/
+.oria-slider .slide-title {
+	left: 0;
+	bottom: -100%;
+	transition: all 0.5s linear;
+	opacity: 0;
+}
+.oria-slider .owl-item:hover .slide-title {
+	bottom: 0;
+	opacity: 1;
+}
+.oria-slider .slide-title a {
+	width: 100%;
+}
+/*Title Categories*/
+.archive-header {
+    padding: 0;
+    margin: 15px;
+    border: none;
+    background: none;
+    text-align: center;
+}
+.archive-header .archive-title {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
+}
+.archive-header .archive-title:after {
+	content: '';
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #ad1457;
+    border-radius: 50px;
+}
+.entry-footer {
+    padding: 15px;
+	margin: 60px 0 30px 0;
+    border: 1px solid #f5f5f5;
+}
+.container-footer {
+	position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    max-width: 1500px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+	margin: 0 auto 45px 0;
+}
+
+
+
+
+

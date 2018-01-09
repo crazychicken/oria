@@ -13,7 +13,7 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="archive-header">
-				<h2 class="archive-title"><?php printf( esc_html__( 'Search Results for: %s', 'oria' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				<h2 class="archive-title"><?php printf( esc_html__( 'Kết quả tìm kiếm của bạn: %s', 'oria' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>

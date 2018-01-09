@@ -229,7 +229,7 @@ add_filter( 'excerpt_length', 'oria_excerpt_length', 999 );
 */
 function oria_excerpt_more($more) {
     global $post;
-    $read_more = get_theme_mod('read_more_text', 'Continue reading');
+    $read_more = get_theme_mod('read_more_text', 'Xem chi tiết');
 	return '<a class="read-more" href="'. get_permalink($post->ID) . '">' . esc_html($read_more) . '</a>';
 }
 add_filter('excerpt_more', 'oria_excerpt_more');
