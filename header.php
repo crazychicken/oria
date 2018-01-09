@@ -19,7 +19,8 @@
 
 <meta property="og:image" content="https://quynhlemo.com/wp-content/uploads/2018/01/voiu-e1515511289269.jpg"/>
 <meta property="og:description" content="Kênh video hướng dẫn và chia sẽ các thông tin hữu ích về guitar, là nơi cập nhật những tab bài hát mới nhất, nhanh nhất cho các bạn nghiên cứu và học tập ... " />
-<meta property="fb:pages" content="490053637867569" />
+<meta property="fb:app_id" content="1608440955866308" />
+<meta property="fb:pages" content="504184849967934" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46711522-5"></script>
 <script>
