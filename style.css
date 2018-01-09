@@ -1485,7 +1485,6 @@ Slider
 .widget-area {
 	z-index: 12;
 }
-
 /*Seach top*/
 #search-top {
 	margin: 0;
@@ -1494,6 +1493,18 @@ Slider
 }
 #search-top .search-form  {
 	position: relative;
+}
+#search-top .search-form ::-webkit-input-placeholder {
+    color: #fff;
+}
+#search-top .search-form ::-moz-placeholder {
+    color: #fff;
+}
+#search-top .search-form :-ms-input-placeholder {
+    color: #fff;
+}
+#search-top .search-form :-moz-placeholder {
+    color: #fff;
 }
 #search-top label {
 	margin-bottom: 0;
