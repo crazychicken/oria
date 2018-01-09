@@ -54,7 +54,20 @@ endif;
 			</nav>
 			<?php endif; ?>
 		
-			<?php if ( is_active_sidebar( 'sidebar-1' ) && !is_singular() ) : ?>		
+			<?php if ( is_active_sidebar( 'sidebar-1' ) && !is_singular() ) : ?>	
+
+			<aside id="search-top" class="widget widget_search">
+				<form role="search" method="get" class="search-form" action="https://quynhlemo.com/">
+					<label>
+						<span class="screen-reader-text">Search for:</span>
+						<input type="search" class="search-field" placeholder="Search …" value="" name="s">
+					</label>
+					<button type="submit" class="search-submit" value="Search">
+						<i class="fa fa-search"></i>
+					</button>
+				</form>
+			</aside>
+
 			<div class="sidebar-toggle">
 				<i class="fa fa-plus"></i>
 			</div>
