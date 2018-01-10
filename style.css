@@ -1563,6 +1563,12 @@ Slider
 	bottom: 0;
 	opacity: 1;
 }
+@media ( max-width: 767px ) {
+	.oria-slider .owl-item .slide-title {
+		bottom: 0;
+		opacity: 1;
+	}
+}
 .oria-slider .slide-title a {
 	width: 100%;
 }
