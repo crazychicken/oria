@@ -16,8 +16,7 @@ get_header(); ?>
 
 			<header class="archive-header">
 				<?php
-					// the_archive_title( '<h2 class="archive-title">', '</h2>' );
-					echo '<h2 class="archive-title">' . single_cat_title( '', false ) . '</h2>';
+					the_archive_title( '<h2 class="archive-title">', '</h2>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->

@@ -198,10 +198,23 @@ function the_archive_title( $before = '', $after = '' ) {
 	$title = apply_filters( 'get_the_archive_title', $title );
 
 	if ( ! empty( $title ) ) {
-		echo $before . $title . $after; 
+		echo $before . $title . $after;
 	}
 }
 endif;
+
+
+// Fix category no title
+add_filter( 'get_the_archive_title', function ($title) {
+
+    if ( is_category() ) {
+            $title = single_cat_title( '', false );
+        } elseif ( is_tag() ) {
+            $title = single_tag_title( '', false );
+       }
+    return $title;
+
+});
 
 if ( ! function_exists( 'the_archive_description' ) ) :
 /**
