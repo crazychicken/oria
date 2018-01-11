@@ -105,6 +105,6 @@ function oria_custom_styles($custom) {
     }
 
 	//Output all the styles
-	wp_add_inline_style( 'oria-style', $custom );	
+	wp_add_inline_style( 'oria-style', $custom );
 }
 add_action( 'wp_enqueue_scripts', 'oria_custom_styles' );
