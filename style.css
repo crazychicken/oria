@@ -1491,9 +1491,9 @@ Slider
     background: #23c6c8 !important; }
 
 .mc-layout__modalContent {
-  box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.5); }
+  box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.5) !important; }
 
-#uniqName_3_0 {
+#uniqName_3_0 input {
   outline: none;
   border: 1px solid #e0e0e0;
   padding: 12px 10px; }
