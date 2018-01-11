@@ -159,7 +159,7 @@ add_action( 'wp_enqueue_scripts', 'oria_scripts' );
  * Enqueue Bootstrap
  */
 function oria_enqueue_bootstrap() {
-	// wp_enqueue_style( 'oria-bootstrap', get_template_directory_uri() . '/css/bootstrap/bootstrap.min.css', array(), true );
+	wp_enqueue_style( 'oria-bootstrap', get_template_directory_uri() . '/css/bootstrap/bootstrap.min.css', array(), true );
 	wp_enqueue_style( 'oria-style', get_stylesheet_uri() );
 }
 add_action( 'wp_enqueue_scripts', 'oria_enqueue_bootstrap', 200 );
