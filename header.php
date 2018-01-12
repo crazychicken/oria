@@ -19,10 +19,10 @@
 
 <?php
 	if ( is_front_page() ) {	
-		echo '<meta property="og:image" content="https://quynhlemo.com/wp-content/uploads/2018/01/voiu-e1515511289269.jpg"/>'
-		echo '<meta property="og:description" content="Kênh video hướng dẫn và chia sẻ các thông tin hữu ích về guitar, là nơi cập nhật những tab bài hát mới nhất, nhanh nhất cho các bạn nghiên cứu và học tập ... " />'
+		echo '<meta property="og:image" content="https://quynhlemo.com/wp-content/uploads/2018/01/voiu-e1515511289269.jpg"/>',
 	}
 ?>
+<meta property="og:description" content="Kênh video hướng dẫn và chia sẻ các thông tin hữu ích về guitar, là nơi cập nhật những tab bài hát mới nhất, nhanh nhất cho các bạn nghiên cứu và học tập ... " />
 <meta property="fb:pages" content="504184849967934" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46711522-5"></script>
