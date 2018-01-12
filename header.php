@@ -17,7 +17,11 @@
 <link rel="shortcut icon" href="<?php echo esc_url(get_theme_mod('site_favicon')); ?>" />
 <?php endif; ?>
 
-<meta property="og:image" content="https://quynhlemo.com/wp-content/uploads/2018/01/voiu-e1515511289269.jpg"/>
+<?php
+	if ( is_front_page() ) {	
+		echo '<meta property="og:image" content="https://quynhlemo.com/wp-content/uploads/2018/01/voiu-e1515511289269.jpg"/>';
+	}
+?>
 <meta property="og:description" content="Kênh video hướng dẫn và chia sẻ các thông tin hữu ích về guitar, là nơi cập nhật những tab bài hát mới nhất, nhanh nhất cho các bạn nghiên cứu và học tập ... " />
 <meta property="fb:pages" content="504184849967934" />
 <!-- Global site tag (gtag.js) - Google Analytics -->

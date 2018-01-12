@@ -30,7 +30,7 @@
 	       	//Get the user choices
 	        $number     = get_theme_mod('carousel_number');
 	        $cat        = get_theme_mod('carousel_cat');
-	        $number     = ( ! empty( $number ) ) ? intval( $number ) : 6;
+	        $number     = ( ! empty( $number ) ) ? intval( $number ) : 12;
 	        $cat        = ( ! empty( $cat ) ) ? intval( $cat ) : '';
 
 			$args = array(
