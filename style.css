@@ -1512,4 +1512,13 @@ Slider
 #respond.js .comment-form-fields label {
   top: 9px; }
 
+.music-q {
+  line-height: 4.4rem; }
+  .music-q .sub-q {
+    font-size: 1.6rem;
+    position: relative;
+    top: -2rem;
+    color: #E91E63;
+    font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
